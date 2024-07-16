@@ -9,7 +9,7 @@ pipeline {
      }       
   }       
   steps {
-       sh '/home/gitops-user/spring-petclinic/mvnw package'
+       sh './mvnw package'
        }
      }
    }
